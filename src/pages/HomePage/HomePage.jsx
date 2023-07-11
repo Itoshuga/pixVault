@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './HomePage.css';
 
+import TagBox from '../../components/TagBox/TagBox';
+
 import logo from '../../assets/react.svg';
 
 const HomePage = () => {
@@ -16,26 +18,12 @@ const HomePage = () => {
         </section>
 
         <section id="tag" className="section-p1">
-          <div className="tag-box">
-            <img src={logo} alt="" />
-            <h6>Cosplay</h6>
-          </div>
-          <div className="tag-box">
-            <img src={logo} alt="" />
-            <h6>Anime</h6>
-          </div>   
-          <div className="tag-box">
-            <img src={logo} alt="" />
-            <h6>Game</h6>
-          </div>   
-          <div className="tag-box">
-            <img src={logo} alt="" />
-            <h6>Artist</h6>
-          </div>   
-          <div className="tag-box">
-            <img src={logo} alt="" />
-            <h6>Other</h6>
-          </div>   
+          <TagBox image={logo} title="Cosplay"/>
+          <TagBox image={logo} title="Cosplay"/>
+          <TagBox image={logo} title="Cosplay"/>
+          <TagBox image={logo} title="Cosplay"/>
+          <TagBox image={logo} title="Cosplay"/>
+          <TagBox image={logo} title="Cosplay"/>
         </section>
       </>
   );
