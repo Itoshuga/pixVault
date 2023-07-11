@@ -1,9 +1,9 @@
 
 import { Link } from 'react-router-dom';
-import logo from '../assets/react.svg';
+import logo from '../../assets/react.svg';
 import './Header.css';
 
-import { HiOutlineShoppingBag } from "react-icons/hi";
+import { AiOutlineUpload } from "react-icons/ai";
 
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
                     <li><Link to="/about">A Propos</Link></li>
                     <li><Link to="/shop">Boutique</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/cart"><HiOutlineShoppingBag/></Link></li>
+                    <li><Link className="upload" to="/upload"><AiOutlineUpload/></Link></li>
                 </ul>
             </div>
         </section>
