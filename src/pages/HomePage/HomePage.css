@@ -1,0 +1,70 @@
+/* Hero Banner Section */
+
+#hero {
+    background-image: url("../../assets/heroBanner.png");
+    background-color: #f3f3f7;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom 25% right;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: #755a84;
+}
+
+#hero a {
+    color: #755a84;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 0;
+    padding: 14px 80px;
+    text-decoration: none;
+}
+
+/* Tags Section */
+
+#tag {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#tag .tag-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #a193a9;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#tag .tag-box:hover  {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.01);
+}
+
+#tag .tag-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#tag .tag-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 0;
+    border-radius: 4px;
+    color: #755a84;
+    background-color: #f3f3f7;
+}
