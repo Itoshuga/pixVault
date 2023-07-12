@@ -1,11 +1,11 @@
 #tag .tag-box {
     width: 12vw;
     text-align: center;
-    padding: 25px 15px;
+    padding: 1.5vw 1.3vw;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
     border: 1px solid #e1d3ea;
-    border-radius: 4px;
-    margin: 15px 0;
+    border-radius: 0.31vw;
+    margin: 1.1vw 0;
 }
 
 #tag .tag-box:hover  {
