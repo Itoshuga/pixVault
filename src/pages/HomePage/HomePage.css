@@ -38,6 +38,21 @@
 #tag {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+/* Gallery Section */
+
+#gallery {
+    text-align: center;
+}
+
+#gallery .collection-container {
+    display: flex;
     justify-content: space-between;
+    padding-top: 20px;
     flex-wrap: wrap;
 }
